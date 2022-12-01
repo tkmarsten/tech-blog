@@ -1,0 +1,21 @@
+<div class="post">
+  <div class="post-header">
+    <div>Edit post</div>
+    <div>{{date_created}} </div>
+  </div>
+  <div class="post-body post-edit">
+    <label for="title">Title</label><br />
+    <input type="text" name="title" id="postTitle" value="{{title}}" /><br />
+    <label for="content">Content</label>
+    <textarea
+      name="content"
+      id="postContent"
+      row="5"
+      cols="50"
+    >{{content}}</textarea>
+  </div>
+  <button id="editBtn" data-postId="{{id}}">Update</button>
+  <button id="deleteBtn" data-postId="{{id}}">Delete</button>
+</div>
+
+<script src="/js/editPost.js"></script>

@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <a class="nav-link" href="/">Home</a>
+      <a class="nav-link" href="/dashboard">Dashboard</a>
+      {{#if loggedIn}}
+        <button class="btn" id="logoutBtn">Logout</button>
+      {{else}}
+        <a class="nav-link" href="/login">Login</a>
+      {{/if}}
+    </nav>
+    <main>
+      {{{body}}}
+    </main>
+  </body>
+
+  <script src="/js/logout.js"></script>
+</html>

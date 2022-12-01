@@ -1,0 +1,16 @@
+<header>
+  <h2>Your Posts</h2>
+</header>
+{{#each posts}}
+  <div class="post">
+    <a href="/edit/{{id}}" class="post-link">
+      <div class="post-header">
+        <div>{{title}}</div>
+        <div>{{date_created}}</div>
+      </div>
+    </a>
+  </div>
+{{/each}}
+<button id="newPost"><a href="/create">+ New post</a></button>
+
+<script src="/js/dashboard.js"></script>

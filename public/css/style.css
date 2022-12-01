@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+hr {
+  width: 50%;
+  margin-top: 50px;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  padding: 10px;
+}
+
+input {
+  padding: 10px;
+}
+
+nav {
+  background-color: #252525;
+  padding: 1rem;
+}
+
+nav > * {
+  color: white;
+  font-size: 20px;
+  margin: 0 1rem;
+}
+
+button {
+  background: #252525;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  margin: 2rem;
+}
+
+header {
+  width: 100%;
+}
+
+header > h2 {
+  font-size: 2rem;
+}
+
+.post {
+  width: 50%;
+  border: 2px solid #252525;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.post-link {
+  width: 100%;
+  color: black;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252525;
+  color: white;
+  height: 50px;
+  padding: 10px;
+}
+
+.post-body {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 85px;
+  padding: 10px;
+}
+
+.post-edit {
+  height: 200px;
+}
+
+.post-body > * {
+  margin-bottom: 10px;
+}
+
+#editBtn,
+#deleteBtn,
+#commentBtn {
+  margin: 10px;
+}
+
+#login,
+#signup {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #252525;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px;
+}
+
+#login > *,
+#signup > * {
+  margin-bottom: 10px;
+}
+
+#login > a,
+#signup > a {
+  color: #252525;
+}
+
+#createPost {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #252525;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px;
+}
+
+#createPost > * {
+  margin-bottom: 10px;
+}
+
+.comment {
+  width: 50%;
+  border: 2px solid #252525;
+  border-radius: 10px;
+}
+
+.comment-body {
+  padding: 10px;
+}
+
+.comment-section {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.comment-card {
+  border: 2px solid #252525;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}

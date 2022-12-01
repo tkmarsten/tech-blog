@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Post 1",
+    "content": "Huge post 1",
+    "user_id": 1
+  },
+  {
+    "title": "Post 2",
+    "content": "post 2 content",
+    "user_id": 1
+  }
+]
