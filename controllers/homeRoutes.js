@@ -10,7 +10,6 @@ router.get('/', async (req, res) => {
   })
     .then(postData => {
       const hbsData = postData.map(post => post.get({ plain: true }))
-      console.log(hbsData)
       res.render('home', {
         loggedIn: req.session.loggedIn,
         userId: req.session.userId,
