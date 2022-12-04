@@ -8,11 +8,11 @@ This application is a CMS-style tech blog. Developers may publish blogs posts, s
 
 ## Installation
 
-N/A
+Use `npm i` to install packages if the application is installed on your local machine.
 
 ## Usage
 
-Login or sign up to get started. The application must be downloaded for use. Use `npm i` to install the neccessary packages.
+Login or sign up to get started. The application is deployed [here](https://tiarnanm-tech-blog.herokuapp.com/)
 
 ## Contribution
 
